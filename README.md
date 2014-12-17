@@ -53,6 +53,5 @@ NULL
 [1,] 0.3333333 0.0000000
 [2,] 0.0000000 0.3333333
 ```
-
 The last test checks that the cached inverse is not cleared at set() in 
 case the new matrix is equal the previous one. 
