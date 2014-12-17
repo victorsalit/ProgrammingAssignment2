@@ -18,7 +18,10 @@ invertible.
 
 1. fork and clone the repo.
 2. in R: 
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> 62535e2809a2c3eaccbfdb5f697b73f70cb35a87
 > source('your_path/cachematrix.R')
 > testm<- makeCacheMatrix(diag(2,2,2))
 > testm$get()
@@ -52,7 +55,10 @@ NULL
           [,1]      [,2]
 [1,] 0.3333333 0.0000000
 [2,] 0.0000000 0.3333333
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> 62535e2809a2c3eaccbfdb5f697b73f70cb35a87
 
 The last test checks that the cached inverse is not cleared at set() in 
 case the new matrix is equal the previous one. 
